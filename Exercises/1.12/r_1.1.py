@@ -5,6 +5,8 @@ integer i, and False otherwise.
 '''
 
 def is_multiple(n, m):
-  pass
+  if m % n == 0:
+    return True
+  return False
 
-print(is_multiple(2, 4))
+print(is_multiple(2, 8))
